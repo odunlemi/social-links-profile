@@ -1,0 +1,83 @@
+/* Font-family: Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.container,
+.profile-card,
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    min-width: 1440px;
+    width: 100%;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.profile-card {
+    height: 600px;
+    width: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 12%);
+    gap: 25px;
+}
+
+.user-profile {
+    justify-content: space-between;
+    gap: 15px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h3 {
+    color: hsl(75, 94%, 57%);
+}
+
+.links,
+.links div {
+    display: flex;
+}
+
+.links {
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links div {
+    height: 50px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.links div:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
