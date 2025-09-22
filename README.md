@@ -69,9 +69,11 @@ I wrote better code with this challenge as it's very similar to the [blog previe
 
 ### Continued development
 
-- The social links are `a` tags in `div`s, it works but you'd have to hover over the text to click them. Change them to be `a` tags surrounding the whole `div`
+- ~~The social links are `a` tags in `div`s, it works but you'd have to hover over the text to click them. Change them to be `a` tags surrounding the whole `div`~~
 
-- Delete the font import tag, already using local font files
+- ~~Delete the font import tag, already using local font files~~ 
+
+Now done
 
 ### Useful resources
 
